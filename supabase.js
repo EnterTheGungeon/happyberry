@@ -1,8 +1,8 @@
 // supabase.js
 
-const supabaseUrl = "https://jxvmswjyzbauzehqjfke.supabase.co";
+const supabaseUrl = "https://klnvriypvcrmkhnzjyrk.supabase.co";
 const supabaseKey =
-"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4dm1zd2p5emJhdXplaHFqZmtlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE2MDIyMzQsImV4cCI6MjA3NzE3ODIzNH0.lJM4bsYAxEX7vQOevLg3YCfSK39JwRyUOxdIrB7GpCk"
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtsbnZyaXlwdmNybWtobnpqeXJrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIwNzE1NTAsImV4cCI6MjA3NzY0NzU1MH0.zpR99E_iaKSUxzk1OniCIY7O5YFwdxZwW4nqKZWtUSM";
 const { createClient } = supabase;
 const supabaseClient = createClient(supabaseUrl, supabaseKey);
 
@@ -18,7 +18,7 @@ async function saveDataToSupabase(
   hourlySalary,
   additionalResult,
   additionalBrut,
-  additionalNalog
+  additionalNalog,
 ) {
   const currentDate = new Date();
   const formattedDate = currentDate.toLocaleString();
