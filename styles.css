@@ -9,7 +9,7 @@
 :root {
   --background-color-light: #ffffff; /* Светлая тема */
   --text-color-light: #000000;
-  --background-color-dark: #1f1f1f; /* Темная тема */
+  --background-color-dark: #000000; /* Темная тема */
   --text-color-dark: #ffffff;
 }
 
@@ -37,7 +37,7 @@ body {
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
 }
 .dark-theme main > * {
-  background-color: #252525; /* Серый цвет фона */
+  background-color: #000000; /* Серый цвет фона */
   color: white; /* Белый цвет текста */
 }
 
@@ -151,7 +151,7 @@ ul {
 }
 
 #hourlySalaryResult,
-#elapsedTime{
+#elapsedTime {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.1rem;
 }
@@ -167,18 +167,17 @@ ul {
   padding: 10px;
 }
 #hourlySalaryResultContainer,
-#elapsedTime{
+#elapsedTime {
   border-radius: 15px;
   box-shadow: 0px 0px 2px 1px #787f8a;
   margin: 10px;
   padding: 10px;
   display: flex;
   justify-content: space-around;
-  
 }
 #hourlySalaryResultContainer p,
 #elapsedTime p,
-#energyContainer p{
+#energyContainer p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.1rem;
 }
